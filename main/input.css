@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    /* colors */
+    --color-bg-top: #D6E1FF;
+    --color-bg-bot: #E0E8FF;
+    --color-shadower: #0D30BD27;
+    --color-ligth-blu: #DFE6FB;
+    --color-title: #1F2E55;
+    --color-text: #717FA6;
+    --color-primary: #382AE1;
+    --color-primar-activ: #766CF1;
+
+    /* fonts */
+    --default-font-family: "Red Hat Display", 'Arial', sans-serif;
+
+}
+
+
+@layer base {
+
+    @font-face {
+        font-display: swap;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/red-hat-display-v20-latin-regular.woff2') format('woff2');
+    }
+
+
+    @font-face {
+        font-display: swap;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../fonts/red-hat-display-v20-latin-700.woff2') format('woff2');
+    }
+
+
+    @font-face {
+        font-display: swap;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../fonts/red-hat-display-v20-latin-900.woff2') format('woff2');
+    }
+}
